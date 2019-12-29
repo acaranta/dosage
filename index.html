@@ -126,31 +126,31 @@ of all of them:</p>
 
 <p>For advanced options and features execute <code>dosage --help</code>.</p>
 <h2>Dependencies</h2>
-<p><a href="http://www.python.org/">Python</a>: for Python 2.x at least 2.7.0, for Python 3.x
-at least Python 3.5. Dosage requires the following Python modules:</p>
-<ul>
-<li>colorama</li>
-<li>lxml</li>
-<li>requests</li>
-<li>six</li>
-</ul>
-<p>For certain modules, you need the <code>cssselect</code> module, for bash argument
-completion you need the <code>argcomplete</code> module.</p>
+<p>Since dosage is written in <a href="http://www.python.org/">Python</a>, a Python
+installation is required: for Python 2.x at least 2.7.0, for Python 3.x at
+least Python 3.5. Dosage requires some Python modules from PyPI, so
+installation with <code>pip</code> is recommended.</p>
 <h2>Installation</h2>
-<p>The easy way with pip:</p>
-<pre class="codehilite"><code>pip install --user dosage</code></pre>
+<p>The simplest way to install and upgrade dosage is with <a href="https://github.com/pipxproject/pipx">pipx</a>. To install the
+newest stable version with all optional features use:</p>
+<pre class="codehilite"><code>pipx install --spec dosage[css,dimensions,bash] dosage</code></pre>
 
 
-<p>You can invoke Dosage directly from the source code as <code>./dosage</code>.
-Alternatively, you can install Dosage using setuptools by invoking <code>setup.py</code>
-in the root of the distribution. For example:</p>
-<pre class="codehilite"><code>python setup.py install</code></pre>
+<p>To install the newest development version, use:</p>
+<pre class="codehilite"><code>pipx install --spec &quot;dosage[css,dimensions,bash] @ git+https://github.com/webcomics/dosage.git&quot; dosage</code></pre>
 
 
-<p>or if you do not have root permissions:</p>
-<pre class="codehilite"><code>python setup.py install --home=$HOME</code></pre>
+<p>To upgrade such installations, just run:</p>
+<pre class="codehilite"><code>pipx upgrade dosage</code></pre>
 
 
+<p>If you want to run dosage directly from the source code, you should install
+it in "<a href="https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs">editable</a>" mode, preferable in a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a>:</p>
+<pre class="codehilite"><code>pip install -e .[css,dimensions,bash]</code></pre>
+
+
+<p>You can invoke Dosage directly from the source code as <code>./dosage</code>, but this
+mode of operation is discouraged, since dependencies might be missing.</p>
 <h2>Reporting Bugs</h2>
 <p>You can report bugs, patches or requests at the <a href="https://github.com/webcomics/dosage/issues">GitHub issue
 tracker</a> - Dosage currently
@@ -178,7 +178,7 @@ integration. See the badges at the top of this page for the current status.</p>
         <ul class="copyright">
             <li>Generated with <a
                 href="https://github.com/spanezz/staticsite">staticsite</a>,
-                last change: 2019-12-29 12:25:21Z</li>
+                last change: 2019-12-29 22:58:32Z</li>
             <li>&copy; Tobias Gruetzmacher. Some rights reserved.</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
