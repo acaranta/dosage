@@ -38,6 +38,8 @@
                 
                 <li><a href="https://github.com/webcomics/dosage/issues/new"><span class="icon fa-bug">Report Issue</span></a></li>
                 
+                <li><a href="/CHANGELOG"><span class="icon fa-bug">ChangeLog</span></a></li>
+                
             </ul>
         </nav>
     </div>
@@ -101,10 +103,6 @@ add the following entry to your robots.txt file:</p>
 Allow: *</code></pre>
 
 
-<h2>Adult content</h2>
-<p>Some comics contain adult content and require age confirmation. These comics
-can only be downloaded by using the <code>--adult</code> option, which confirms that you
-are old enough to view them.</p>
 <h2>Usage</h2>
 <p>List available comics (ca. 3000 at the moment):</p>
 <pre class="codehilite"><code>$ dosage --list</code></pre>
@@ -125,12 +123,20 @@ of all of them:</p>
 
 
 <p>For advanced options and features execute <code>dosage --help</code>.</p>
-<h2>Dependencies</h2>
+<h3>Adult content</h3>
+<p>Some comics contain adult content and require age confirmation. These comics
+can only be downloaded by using the <code>--adult</code> option, which confirms that you
+are old enough to view them.</p>
+<h2>Installation</h2>
+<h3>Dependencies</h3>
 <p>Since dosage is written in <a href="http://www.python.org/">Python</a>, a Python
 installation is required: for Python 2.x at least 2.7.0, for Python 3.x at
 least Python 3.5. Dosage requires some Python modules from PyPI, so
 installation with <code>pip</code> is recommended.</p>
-<h2>Installation</h2>
+<h3>Using the Windows binary</h3>
+<p>Windows users can download a complete binary (including Python) from the
+<a href="https://github.com/webcomics/dosage/releases/latest">release page</a>.</p>
+<h3>Install with pipx</h3>
 <p>The simplest way to install and upgrade dosage is with <a href="https://github.com/pipxproject/pipx">pipx</a>. To install the
 newest stable version with all optional features use:</p>
 <pre class="codehilite"><code>pipx install --spec dosage[css,dimensions,bash] dosage</code></pre>
@@ -144,6 +150,7 @@ newest stable version with all optional features use:</p>
 <pre class="codehilite"><code>pipx upgrade dosage</code></pre>
 
 
+<h3>Installation for development</h3>
 <p>If you want to run dosage directly from the source code, you should install
 it in "<a href="https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs">editable</a>" mode, preferable in a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a>:</p>
 <pre class="codehilite"><code>pip install -e .[css,dimensions,bash]</code></pre>
@@ -178,7 +185,7 @@ integration. See the badges at the top of this page for the current status.</p>
         <ul class="copyright">
             <li>Generated with <a
                 href="https://github.com/spanezz/staticsite">staticsite</a>,
-                last change: 2019-12-29 22:58:32Z</li>
+                last change: 2019-12-31 15:02:19Z</li>
             <li>&copy; Tobias Gruetzmacher. Some rights reserved.</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
