@@ -1,10 +1,10 @@
 {
   "ci_service": {
     "branch": "master",
-    "build_identifier": "274021531",
+    "build_identifier": "274045616",
     "build_url": "",
-    "commit_sha": "cfd7b80053ff4a38ae7c526606a52dba12c08536",
-    "committed_at": 1578600834,
+    "commit_sha": "42b5aa9321e4e2aabd11bc6f963d71b74b2e108e",
+    "committed_at": 1578604880,
     "name": "true"
   },
   "environment": {
@@ -18,268 +18,76 @@
   },
   "git": {
     "branch": "master",
-    "head": "cfd7b80053ff4a38ae7c526606a52dba12c08536",
-    "committed_at": 1578600834
+    "head": "42b5aa9321e4e2aabd11bc6f963d71b74b2e108e",
+    "committed_at": 1578604880
   },
-  "covered_percent": 85.57173237362997,
+  "covered_percent": 85.5344883949003,
   "covered_strength": 0,
   "line_counts": {
-    "missed": 882,
-    "covered": 5231,
-    "total": 6113
+    "missed": 885,
+    "covered": 5233,
+    "total": 6118
   },
   "source_files": [
     {
-      "blob_id": "93dd8126ef9934a0da035d923d40c8fd72c0441b",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,null,null,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,null,1,0,0,0,null,null,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,1,0,0,0,0]",
-      "covered_percent": 84.88372093023256,
-      "covered_strength": 0.8488372093023255,
-      "line_counts": {
-        "missed": 13,
-        "covered": 73,
-        "total": 86
-      },
-      "name": "dosagelib/plugins/h.py"
-    },
-    {
-      "blob_id": "4463aca3c080b8eb7023f524f318ef8063055ed2",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,0,0,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,null,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,1,null,null,1,1,1,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1]",
-      "covered_percent": 88.93129770992367,
-      "covered_strength": 0.8893129770992366,
-      "line_counts": {
-        "missed": 29,
-        "covered": 233,
-        "total": 262
-      },
-      "name": "dosagelib/plugins/t.py"
-    },
-    {
-      "blob_id": "9ce4402e988afd7abacba7bfc099f844bb4b253d",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,null,1,1,null,null,null,1,null,null,1,null,null,null,1,null,1,1,1,null,1,null,null,null,null,1,1,1,null,1,null,1,1,1,null,1,null,0,null,1,null,null,null,null,null,null,0,null,1,null,null,null,null,null,null,null,1,null,1,null,0,null,null,1,null,null,1,null,1,null,1,null,1,null,1,1,1,1,null,1,null,1,null,1,0,0,null,1,1,null,1,null,1,1,1,1,1,1,1,1,1,1,1,1,1,1,null,null,null,null,null,null,1,1,1,null,1,null,1,null,1,null,null,1,null,null,1,1,1,1,1,null,1,1,1,1,1,1,1,null,1,1,1,null,null,1,null,null,1,1,null,1,null,1,1,1,1,null,1,1,0,1,null,1,null,1,1,1,1,1,1,null,1,1,0,0,0,0,null,1,1,1,null,1,1,1,0,1,1,1,null,1,1,null,null,null,null,null,null,null,null,1,1,null,1,null,1,null,1,null,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,null,1,null,1,0,1,0,1,1,null,1,null,1,1,1,1,1,1,1,null,null,1,null,null,1,1,null,1,null,1,null,1,null,1,1,1,null,1,null,1,1,0,0,null,1,1,null,1,null,1,1,1,1,null,1,null,1,null,null,1,1,1,1,null,1,null,1,null,1,1,null,1,null,1,1,1,null,null,1,null,null,1,null,1,0,1,null,null,1,1,1,null,null,1,null,1,null,null,null,1,null,null,1,null,1,0,1,null,null,1,1,null,null,1,null,null,1,null,1,1,null,1,null,1,1,null,1,null,1,1,null,1,null,1,1,null,null,1,null,null,1,null,1]",
-      "covered_percent": 92.03539823008849,
-      "covered_strength": 0.9203539823008849,
-      "line_counts": {
-        "missed": 18,
-        "covered": 208,
-        "total": 226
-      },
-      "name": "dosagelib/events.py"
-    },
-    {
-      "blob_id": "d31e1b6e9a1796d94da5625eca2b420cf0da6893",
-      "coverage": "[null,null,null,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 2,
-        "total": 2
-      },
-      "name": "dosagelib/languages.py"
-    },
-    {
-      "blob_id": "cbc2630e1de6ed4162517c0145feffa88f35eb78",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,null,1,1,null,null,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,null,1,1,1,1,1,1,1,1,null,1,0,0,0,0,null,1,1,1]",
-      "covered_percent": 85.71428571428571,
-      "covered_strength": 0.8571428571428571,
-      "line_counts": {
-        "missed": 4,
-        "covered": 24,
-        "total": 28
-      },
-      "name": "dosagelib/plugins/comicfury.py"
-    },
-    {
-      "blob_id": "27f80a0cd13cbd2bf3767a0a757962d80e8cc77e",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,0,0,null,0,0,null,null,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,1,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,1,null,null,1,0,null,null,1,1,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,null,1,1,null,null,1,1,1,1,1,1,1]",
-      "covered_percent": 91.73228346456693,
-      "covered_strength": 0.9173228346456693,
-      "line_counts": {
-        "missed": 21,
-        "covered": 233,
-        "total": 254
-      },
-      "name": "dosagelib/plugins/d.py"
-    },
-    {
-      "blob_id": "38f67d00e948969d4aa2438d3a4ffe51892de95a",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,1,null,1,null,1,1,1,1,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 22,
-        "total": 22
-      },
-      "name": "dosagelib/plugins/dmfa.py"
-    },
-    {
-      "blob_id": "d252f1975b52cc6c3c227fc4aa5f19584db0159e",
-      "coverage": "[null,null,null,null,null,1,1,null,null,1,1,1,1,null,null,1,1,null,null,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 10,
-        "total": 10
-      },
-      "name": "dosagelib/plugins/footloosecomic.py"
-    },
-    {
-      "blob_id": "88b35b7050dbd001df9ea055122b3bfc3648a79d",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,null,null,1,1,null,1,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,null,1,0,null,null,1,1,null,null,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1]",
-      "covered_percent": 92.95154185022027,
-      "covered_strength": 0.9295154185022027,
+      "blob_id": "a9794948f3de42bf27130b71fca590215cd8f7a3",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,null,1,0,0,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,0,null,0,0,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1]",
+      "covered_percent": 90.69767441860465,
+      "covered_strength": 0.9069767441860465,
       "line_counts": {
         "missed": 16,
-        "covered": 211,
-        "total": 227
+        "covered": 156,
+        "total": 172
       },
-      "name": "dosagelib/plugins/b.py"
+      "name": "dosagelib/plugins/n.py"
     },
     {
-      "blob_id": "20637f28de2186c9451c6fd590d102b77be00ac6",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,null,1,null,1,0,null,null,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,null,null,1,null,null,1]",
-      "covered_percent": 98.0392156862745,
-      "covered_strength": 0.9803921568627451,
+      "blob_id": "9851ebe8a5fb9e7764f22209cf56453b5ea703f0",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,0,null,null,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,null,null,null,null,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,null,1,1,1,null,1,null,0,0,0,null,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,1,1,1,1,null,1,null,0,null,null,1,1,null,1,1,1,1,1,null,1,0,null,1,0,0,0,0,0,0,null,null,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,null,1,1,1,1,null,1,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,null,1,1,1,1,1,1,1,null,1,0,null,null,0,0,0,0,0,0,null,null,1,1,1,1,null,1,null,0,0,0,0,null,0,null,null,0,0,0,0,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,1,null,null,null,null,null,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,null,0,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,null,null,1,null,null,null,1,1,null,null,1,1,1,1,1,1,1]",
+      "covered_percent": 87.88598574821853,
+      "covered_strength": 0.8788598574821853,
       "line_counts": {
-        "missed": 1,
-        "covered": 50,
-        "total": 51
+        "missed": 51,
+        "covered": 370,
+        "total": 421
       },
-      "name": "dosagelib/plugins/k.py"
+      "name": "dosagelib/plugins/s.py"
     },
     {
-      "blob_id": "7b677197df65da462f9f3add18993737cfd66fda",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1]",
+      "blob_id": "a1c0b16597d65d72ae043795a956699c1d7bacb6",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,1,null,1,1,1]",
       "covered_percent": 100,
       "covered_strength": 1,
       "line_counts": {
         "missed": 0,
+        "covered": 11,
+        "total": 11
+      },
+      "name": "dosagelib/plugins/arcamax.py"
+    },
+    {
+      "blob_id": "59ea2998e1f5c7b44303f1ee2ea0680250987867",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,1,1,1,1,null,1,1,0,null,0,0,1,1,null,1,1,0,0,null,1,1,1,null,null,1,null,null,null,null,null,null,null,1,null,null,1,null,null,null,1,1,0,1,0,0,0,null,1,null,null,1,null,null,null,0,0,0,0,0,0,0,0,0,null,0,null,0,null,null,1,null,null,null,null,0,0,0,0,0,null,null,1,null,1,1,null,null,1,null,0,0,null,null,1,null,1,1,0,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,null,1,1,null,null,null,null,null,null,null,1,null,null,null,null,1,null,null,null,null,null,null,null,null,1,null,null,1,null,1,null,1,1,1,null,null,1,null,null,1,0,1,null,null,1,null,null,0,0,0,0,null,0,0,null,null,1,null,1,null,null,1,null,null,1,null,null,null,null,null,1,null,1,null,1,1,1,1,1,null,1,0,null,1,1,null,null,1,null,1,1,null,null,1,null,null,null,1,1,1,0,null,null,1,1,null,1,1,1,null,1,null,1,null,0,0,0,0,1,null,null,1,null,null,1,1,1,1,1,1,1,1,1,null,0,0,1,1,1,1,1,1,1,1,1,1,null,null,1,null,null,null,1,0,1,0,0,0,null,null,null,null,1,null,1,1,1,1,1,1,null,null,1,null,1,1,1,1,1,0,0,null,1,1,null,null,1,null,1,1,1,null,null,1,null,0,0,null,null,null,null,null,null,null,null,0,0,0,0,0,0,0,0,0,0,0,0,null,null,null,null,1,null,0,0,0,null,null,1,null,0,null,null,1,null,0,0,null,null,1,null,0,0,0,null,0,0,0,null,null,1,null,0,null,null,null,1,null,null,0,0,null,0,0,null,null,1,null,1,null,null,1,null,1,0,0,0,0,1,null,null,1,null,0,null,null,1,null,null,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,null,null,1,null,null,null,1,null,1,0,1,0,null,1,0,1,null,null,1,null,null,null,null,1,1,1,1,1,1,1,1,1,0,null,null,1,null,null,null,0,0,0,0,0,0,0,0,null,null,1,null,null,null,null,null,null,null,null,null,1,1,1,1,0,1,null,null,1,null,1,1,1,1,1]",
+      "covered_percent": 60.57347670250897,
+      "covered_strength": 0.6057347670250897,
+      "line_counts": {
+        "missed": 110,
+        "covered": 169,
+        "total": 279
+      },
+      "name": "dosagelib/util.py"
+    },
+    {
+      "blob_id": "6167ce47846362008ff24853d4c9f022160e1e7a",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,null,null,null,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,null,null,0,0,0,null,0,null,1,null,0]",
+      "covered_percent": 80.76923076923077,
+      "covered_strength": 0.8076923076923077,
+      "line_counts": {
+        "missed": 5,
         "covered": 21,
-        "total": 21
+        "total": 26
       },
-      "name": "dosagelib/plugins/nuklearpower.py"
-    },
-    {
-      "blob_id": "12cd42d1f361831fcb51d304d10f560a873fc9e2",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,null,0,0,null,null,1,1,1,null,1,null,0,0]",
-      "covered_percent": 92.72727272727272,
-      "covered_strength": 0.9272727272727272,
-      "line_counts": {
-        "missed": 4,
-        "covered": 51,
-        "total": 55
-      },
-      "name": "dosagelib/plugins/u.py"
-    },
-    {
-      "blob_id": "3f6b5f3296a25420e715573e4a70608849663904",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,1,1,1,null,1,1,0,1,null,1,1]",
-      "covered_percent": 95.83333333333334,
-      "covered_strength": 0.9583333333333334,
-      "line_counts": {
-        "missed": 1,
-        "covered": 23,
-        "total": 24
-      },
-      "name": "dosagelib/plugins/x.py"
-    },
-    {
-      "blob_id": "acdaf1164871ab5b516e582245ee00282b09324b",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,1,1,1,1,1,null,1,1,0,0,null,1,1,null,null,1,null,null,1,null,1,null,null,1,null,null,1,null,1,null,1,1,1,1,1,1,1,null,0,1,1,null,0,1,1,0,1,null,1,1,null,1,null,1,1,null,null,1,1,null,1,null,1,null,1,null,null,1,null,1,null,1,null,null,1,null,1,null,1,null,1,1,1,1,1,null,1,null,1,1,1,0,null,1,1,1,1,1,1,1,0,1,1,1,null,1,null,1,1,1,null,1,1,null,1,1,0,0,0,0,0,0,0,null,1,1,null,1,null,1,1,null,1,1,1,1,null,1,null,1,1,null,1,1,0,0,1,1,1,0,null,1,null,null,1]",
-      "covered_percent": 84.82142857142857,
-      "covered_strength": 0.8482142857142857,
-      "line_counts": {
-        "missed": 17,
-        "covered": 95,
-        "total": 112
-      },
-      "name": "dosagelib/output.py"
-    },
-    {
-      "blob_id": "aa14de897f3609cd7b50678c12640330e8b24878",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,1,1,null,1,1,0,0,null,1,1,1,1,null,1,1,null,1,1,1,null,null,1,null,null,1,null,null,null,null,1,null,null,null,1,null,null,1,null,null,1,null,null,1,null,null,1,null,null,1,null,null,null,1,null,null,null,1,null,null,null,1,null,null,null,null,1,null,null,1,null,null,null,null,null,1,null,null,1,null,1,1,1,1,1,1,null,1,1,1,null,1,1,1,1,null,1,null,1,1,1,1,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,1,0,null,null,0,0,0,1,0,null,1,1,null,null,1,1,null,1,null,1,1,1,null,0,1,1,1,null,0,null,null,1,1,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,0,0,null,1,1,1,null,1,1,0,0,0,1,1,1,1,1,1,1,null,0,0,1,null,1,null,null,null,null,1,0,1,1,1,null,1,null,1,1,1,1,0,null,0,null,1,1,1,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,null,null,null,1,null,1,null,null,null,null,1,null,1,null,1,1,1,1,null,1,null,null,1,1,1,1,null,1,1,null,0,0,0,1,1,1,null,1,null,1,1,null,1,null,1,null,1,null,0,0,0,0,0,null,1,null,null,null,null,null,null,null,null,null,null,null,1,null,1,0,null,1,1,null,1,0,null,1,null,null,null,null,null,null,1,null,1,null,null,null,null,1,1,1,1,null,0,0,0,0,0,0,0,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,1,null,1,0,null,0,0,0,0,null,0,0,null,1,null,0,0,0,0,0,0,0,null,0,null,0,0,null,0,0,0,0,null,0,null,1,null,0,0,0,0,0,null,0,0,0,null,0,null,null,0,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,1,null,null,1,null,null,null,null,null,1,null,null,null,null,1,null,1,1,1,null,null,null,null,null,1,1,null,0,1,1,null,1,1,0,0,0,null,0,0,null,1,1,null,1,null,1,1,1,1,1,1,1,0,0,1,1,1,null,1,1,null,1,null,1,null,1,0,1,1,1,1,1,1,1,1,1,0,0,null,0,null,1,null,1,1,0,null,1,1,1,1,1,1,1,1,null,1,null,1,null,1,1,1,0,null,null,1,null,null,1,null,null,null,null,null,null,1,1,1,1,1,1,1,null,1,1,null,0,1,1,1,1,1,1,0,1,null,null,1,null,null,1,null,null,null,null,null,null,1,1,1,1,1,null,1,1,null,1,1,null,1,null,null,1,null,1,1,1,1,0,0,0,null,1]",
-      "covered_percent": 74.92795389048992,
-      "covered_strength": 0.7492795389048992,
-      "line_counts": {
-        "missed": 87,
-        "covered": 260,
-        "total": 347
-      },
-      "name": "dosagelib/scraper.py"
-    },
-    {
-      "blob_id": "09cd12791f4330d4bf20d19f8694138711890290",
-      "coverage": "[null,null,null,null,1,null,1,1,null,1,null,null,1,1,1,1,1,1,1,null,1,1,1,1,null,1,0,0,0,null,1,1,1]",
-      "covered_percent": 86.36363636363636,
-      "covered_strength": 0.8636363636363636,
-      "line_counts": {
-        "missed": 3,
-        "covered": 19,
-        "total": 22
-      },
-      "name": "dosagelib/plugins/comicskingdom.py"
-    },
-    {
-      "blob_id": "16d8c9206cb5e57a5c1ef06cd861ec22421aa628",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,null,null,1,1,null,1,1,null,1,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,1,1]",
-      "covered_percent": 81.81818181818183,
-      "covered_strength": 0.8181818181818182,
-      "line_counts": {
-        "missed": 8,
-        "covered": 36,
-        "total": 44
-      },
-      "name": "dosagelib/plugins/cyantian.py"
-    },
-    {
-      "blob_id": "6dbdd98704b15bb0f33d47637c7f37a948805d0d",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,1,1,1,1,null,1,0,0,null,1,0,null,1,null,0,null,1,1,1]",
-      "covered_percent": 85.18518518518519,
-      "covered_strength": 0.8518518518518519,
-      "line_counts": {
-        "missed": 4,
-        "covered": 23,
-        "total": 27
-      },
-      "name": "dosagelib/plugins/gocomics.py"
-    },
-    {
-      "blob_id": "fb06ed0d3acbdcd2188cb15116160e08f46ac9fa",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,null,1,1,1,1,1,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 12,
-        "total": 12
-      },
-      "name": "dosagelib/plugins/sandraandwoo.py"
-    },
-    {
-      "blob_id": "1f649f03f7994b13c8126aeefbdc9715120bb577",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,null,1,null,1,1,1,null,null,1,null,1,null,0,0,0,0,1,null,null,1,null,1,null,1,1,1,null,1,1,null,null,1,null,null,null,null,1,1,1,1,1,1,null,null,1,null,null,null,null,null,null,0,0,0,0,null,null,1,null,null,1]",
-      "covered_percent": 77.14285714285715,
-      "covered_strength": 0.7714285714285715,
-      "line_counts": {
-        "missed": 8,
-        "covered": 27,
-        "total": 35
-      },
-      "name": "dosagelib/helpers.py"
-    },
-    {
-      "blob_id": "c5fd0a88108031b3a242052bb822678c8ece7132",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 16,
-        "total": 16
-      },
-      "name": "dosagelib/plugins/creators.py"
+      "name": "dosagelib/plugins/common.py"
     },
     {
       "blob_id": "93fa3ca29b17ff5a25f6baa0f7b6e3bc73e3789e",
@@ -294,102 +102,6 @@
       "name": "dosagelib/plugins/l.py"
     },
     {
-      "blob_id": "ece6095d23a1af33b4e5d092e261032acd055cbc",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,null,1,null,0,0,0,null,null,1,1,1,1,null,1,null,1,1,1,null,1,0,0,0,0,0,0,0,null,0,0,0,0,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1]",
-      "covered_percent": 84.29752066115702,
-      "covered_strength": 0.8429752066115702,
-      "line_counts": {
-        "missed": 19,
-        "covered": 102,
-        "total": 121
-      },
-      "name": "dosagelib/plugins/o.py"
-    },
-    {
-      "blob_id": "c2088aa5ecda484f30649687ffe566a8cc09695e",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,null,null,1,null,0,0,0,0,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,null,null,null,1,1,null,1,0,null,null,1,null,0,0,0,0,0,0,0,null,null,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1]",
-      "covered_percent": 80.2547770700637,
-      "covered_strength": 0.802547770700637,
-      "line_counts": {
-        "missed": 31,
-        "covered": 126,
-        "total": 157
-      },
-      "name": "dosagelib/plugins/w.py"
-    },
-    {
-      "blob_id": "048d1689aa095c9d7f535419e92d2f2249329da6",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,0,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,1,1,1,null,1,1,1,1,null,1,1,null,1,1,1]",
-      "covered_percent": 96.42857142857143,
-      "covered_strength": 0.9642857142857143,
-      "line_counts": {
-        "missed": 1,
-        "covered": 27,
-        "total": 28
-      },
-      "name": "dosagelib/plugins/old.py"
-    },
-    {
-      "blob_id": "24725adc74a56c59fa3bc7882c2c2a3df73266c1",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,null,1,1,1,null,null,null,null,null,1,1,1,1,1,1,null,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 21,
-        "total": 21
-      },
-      "name": "dosagelib/plugins/petitesymphony.py"
-    },
-    {
-      "blob_id": "f2f53eeffd09afa564dfdc3237858a5593ae8164",
-      "coverage": "[null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,1,null,1,1,0,0,null,1,null,1,1,1,0,null,0,null,null,0]",
-      "covered_percent": 61.53846153846154,
-      "covered_strength": 0.6153846153846154,
-      "line_counts": {
-        "missed": 5,
-        "covered": 8,
-        "total": 13
-      },
-      "name": "dosagelib/__init__.py"
-    },
-    {
-      "blob_id": "28c06f168f37c48dcd3c314585988b538571165a",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,1,1,1,1,null,null,1,null,null,1,null,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,1,null,null,null,null,1,null,1,null,1,null,1,null,1,null,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,null,1,null,null,1,null,1,null,1,null,null,1,null,null,1,null,null,null,1,null,1,null,1,1,0,1,1,1,null,null,1,null,1,1,1,1,1,null,1,1,1,1,1,1,null,1,null,null,null,1,null,1,null,1,null,1,1,1,null,1,1,1,null,null,1,null,1,1,1,null,null,1,null,1,1,1,1,0,0,0,1,null,null,1,null,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,0,0,null,1,null,null,1,null,0,0,0,null,null,0,0,0,0,0,null,null,1,null,0,0,0,0,0,0,0,0,0,null,0,0,null,null,1,null,1,null,1,0,1,1,1,1,1,1,null,null,1,1,1,1,1,1,0,1,null,null,1,null,1,1,1,null,1,1,null,1,1,null,1,1,1,0,0,null,0,0,1,null,null,1,null,1,1,1,0,null,1,1,null,null,1,null,1,1,null,1,1,null,1,1,1,1,1,null,1,1,null,null,1,1,1,null,null,1,null,1,1,1,1,1,1,1,0,1,0,1,1,null,1,1,1,1,1,null,null,1,null,1,1,1,1,1,0,0,1,0,0,1]",
-      "covered_percent": 79.80295566502463,
-      "covered_strength": 0.7980295566502463,
-      "line_counts": {
-        "missed": 41,
-        "covered": 162,
-        "total": 203
-      },
-      "name": "dosagelib/cmd.py"
-    },
-    {
-      "blob_id": "8cafa57e2709dbd62fc09c228107141943665bd8",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,1,1,null,1,0,0,0,0,null,0,null,1,1,1]",
-      "covered_percent": 80,
-      "covered_strength": 0.8,
-      "line_counts": {
-        "missed": 5,
-        "covered": 20,
-        "total": 25
-      },
-      "name": "dosagelib/plugins/clonemanga.py"
-    },
-    {
-      "blob_id": "13c462a89e95e019f9632bf2fd49a0fd82c4c083",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,1,1,null,1,1,1,1,null,1,0,null,1,1,1]",
-      "covered_percent": 93.75,
-      "covered_strength": 0.9375,
-      "line_counts": {
-        "missed": 1,
-        "covered": 15,
-        "total": 16
-      },
-      "name": "dosagelib/plugins/comicsherpa.py"
-    },
-    {
       "blob_id": "a4324944b289b53e3b1d38815e8aa902e51625db",
       "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,null,1,1,null,0,0,0,null,1,null,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,null,1,null,0,0,0,0,0,0,null,null,1,1,1,1,null,null,1,1,1,1,1,null,null,null,null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,null,1,null,0,0,0,null,1,0,null,1,0,null,1,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1]",
       "covered_percent": 90.15544041450777,
@@ -400,78 +112,6 @@
         "total": 193
       },
       "name": "dosagelib/plugins/m.py"
-    },
-    {
-      "blob_id": "33fec2d210d87e709ff32b92056cfcfec728a5f8",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 5,
-        "total": 5
-      },
-      "name": "dosagelib/plugins/num.py"
-    },
-    {
-      "blob_id": "48165947d0bc57023198c0df5593d87f053868fa",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,1,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 11,
-        "total": 11
-      },
-      "name": "dosagelib/plugins/wumo.py"
-    },
-    {
-      "blob_id": "f86360d2100bcda3fea0d865726e5d7ecc9792e7",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,null,1,1,1,null,null,1,null,null,1,null,null,null,null,null,null,1,1,null,1,1,null,0,1,null,1,null,1,null,null,1,null,1,1,null,1,0,0,null,null,0,0,null,1,1,null,null,1,null,1]",
-      "covered_percent": 82.14285714285714,
-      "covered_strength": 0.8214285714285714,
-      "line_counts": {
-        "missed": 5,
-        "covered": 23,
-        "total": 28
-      },
-      "name": "dosagelib/updater.py"
-    },
-    {
-      "blob_id": "3ed2367044346152f31a10767185ae89d5f35698",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,1,null,null,1,null,null,1,null,null,null,null,null,null,null,null,1,1,1,1,null,1,null,1,null,1,1,1,null,null,null,1,null,null,1,null,1,null,null,1,null,null,1,null,1,1,null,null,1,null,null,1,null,1,1,1,1,1,1,null,1,null,1,1,1,1,1,1,null,1,1,1,1,0,0,null,1,null,1,1,1,1,null,1,null,1,1,1,0,null,null,1,1,1,0,0,1,1,1,null,0,0,1,0,1,null,null,0,0,0,0,null,1,null,1,1,1,1,0,null,1,1,1,1,0,0,0,0,1,null,1,null,1,null,null,1,null,1,1,null,1,1,1,1,1,1,1,null,1,null,1,1,1,1,1,null,1,1,1,1,1,1,0,0,null,1,1,1,1,1,1,null,null,1,null,1,null,0,0,0,0,null,null,null,1,1,null,1,1,null,null,0,1,1,1,null,1,1,1,1,1,null,1,1,1,1,null,null,1,0,0,0,0,0,null,null,1,1,1,1,0,0,1,1,0,0,1,null,null,1,null,0,null,null,1,null,0]",
-      "covered_percent": 78.78787878787878,
-      "covered_strength": 0.7878787878787878,
-      "line_counts": {
-        "missed": 35,
-        "covered": 130,
-        "total": 165
-      },
-      "name": "dosagelib/director.py"
-    },
-    {
-      "blob_id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "coverage": "[]",
-      "covered_percent": 0,
-      "covered_strength": 0,
-      "line_counts": {
-        "missed": 0,
-        "covered": 0,
-        "total": 0
-      },
-      "name": "dosagelib/plugins/__init__.py"
-    },
-    {
-      "blob_id": "eb175fed91b9d934cc565aae76ff87187d276e23",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,0,null,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,1,null,0,0,0,null,1,null,0,0,0,0,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,null,1,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1]",
-      "covered_percent": 84.86486486486487,
-      "covered_strength": 0.8486486486486486,
-      "line_counts": {
-        "missed": 28,
-        "covered": 157,
-        "total": 185
-      },
-      "name": "dosagelib/plugins/e.py"
     },
     {
       "blob_id": "626b112e9a987f87193e6c937df6c6222d2f5cdf",
@@ -486,6 +126,30 @@
       "name": "dosagelib/plugins/p.py"
     },
     {
+      "blob_id": "971fa7a712be3dba889e3eac57c1a72ccef22963",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,null,null,0,0,null,0,0,0,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,1,0,0,0,null,1,0,0,0,0]",
+      "covered_percent": 68.42105263157895,
+      "covered_strength": 0.6842105263157895,
+      "line_counts": {
+        "missed": 36,
+        "covered": 78,
+        "total": 114
+      },
+      "name": "dosagelib/plugins/r.py"
+    },
+    {
+      "blob_id": "f86360d2100bcda3fea0d865726e5d7ecc9792e7",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,null,1,1,1,null,null,1,null,null,1,null,null,null,null,null,null,1,1,null,1,1,null,0,1,null,1,null,1,null,null,1,null,1,1,null,1,0,0,null,null,0,0,null,1,1,null,null,1,null,1]",
+      "covered_percent": 82.14285714285714,
+      "covered_strength": 0.8214285714285714,
+      "line_counts": {
+        "missed": 5,
+        "covered": 23,
+        "total": 28
+      },
+      "name": "dosagelib/updater.py"
+    },
+    {
       "blob_id": "7c8cc61d95bc5512abb0e9304f304bbe8e23fa70",
       "coverage": "[null,null,null,null,1,null,null,null,null,null,null,null,1,1,1,1,null,null,1,null,null,null,null,1,1,1,null,1,0,0,null,1,1,1,0,0,null,null,1,null,1,1,1,1,0,1,null,null,1,null,null,null,null,null,null,1,1,1,null,null,1,null,null,null,null,1,1,1,1,1,1,1,0,0,1,1,1,1,1]",
       "covered_percent": 83.72093023255815,
@@ -498,16 +162,160 @@
       "name": "dosagelib/loader.py"
     },
     {
-      "blob_id": "09856a2174f9784f5ada937f5626ec7295c73550",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,0,null,1,null,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,null,null,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,1,null,0,0,0,null,1,null,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,null,null,null,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,null,null,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,1,null,1,0,null,1,null,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,1,null,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,null,null,null,1,1,1,1,1,null,null,1,1]",
-      "covered_percent": 86.81672025723472,
-      "covered_strength": 0.8681672025723473,
+      "blob_id": "09cd12791f4330d4bf20d19f8694138711890290",
+      "coverage": "[null,null,null,null,1,null,1,1,null,1,null,null,1,1,1,1,1,1,1,null,1,1,1,1,null,1,0,0,0,null,1,1,1]",
+      "covered_percent": 86.36363636363636,
+      "covered_strength": 0.8636363636363636,
       "line_counts": {
-        "missed": 41,
-        "covered": 270,
-        "total": 311
+        "missed": 3,
+        "covered": 19,
+        "total": 22
       },
-      "name": "dosagelib/plugins/a.py"
+      "name": "dosagelib/plugins/comicskingdom.py"
+    },
+    {
+      "blob_id": "27f80a0cd13cbd2bf3767a0a757962d80e8cc77e",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,0,0,null,0,0,null,null,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,1,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,1,null,null,1,0,null,null,1,1,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,null,1,1,null,null,1,1,1,1,1,1,1]",
+      "covered_percent": 91.73228346456693,
+      "covered_strength": 0.9173228346456693,
+      "line_counts": {
+        "missed": 21,
+        "covered": 233,
+        "total": 254
+      },
+      "name": "dosagelib/plugins/d.py"
+    },
+    {
+      "blob_id": "adc4ea069a17ed263bbf3ce9a5daf6d4f264801a",
+      "coverage": "[null,null,null,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,null,null,null,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,1,1,1,null,1,null,0,0,0,0,null,1,null,0,null,null,1,1,1,1,1,1,1]",
+      "covered_percent": 90.10989010989012,
+      "covered_strength": 0.9010989010989011,
+      "line_counts": {
+        "missed": 18,
+        "covered": 164,
+        "total": 182
+      },
+      "name": "dosagelib/plugins/f.py"
+    },
+    {
+      "blob_id": "4463aca3c080b8eb7023f524f318ef8063055ed2",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,0,0,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,null,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,1,null,null,1,1,1,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1]",
+      "covered_percent": 88.93129770992367,
+      "covered_strength": 0.8893129770992366,
+      "line_counts": {
+        "missed": 29,
+        "covered": 233,
+        "total": 262
+      },
+      "name": "dosagelib/plugins/t.py"
+    },
+    {
+      "blob_id": "6151993f7b28ea60a6cef75d52489223ce36acae",
+      "coverage": "[null,null,null,1,null,null,null,1,null,1,null,1,null,1,1,1,1,1,null,1,null,null,null,1,null,null,null,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 12,
+        "total": 12
+      },
+      "name": "dosagelib/configuration.py"
+    },
+    {
+      "blob_id": "71ca66f4c37926550a0995e84f3b66d356e7cd41",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,null,1,1,1,1,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 12,
+        "total": 12
+      },
+      "name": "dosagelib/plugins/webcomicfactory.py"
+    },
+    {
+      "blob_id": "38f67d00e948969d4aa2438d3a4ffe51892de95a",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,1,null,1,null,1,1,1,1,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 22,
+        "total": 22
+      },
+      "name": "dosagelib/plugins/dmfa.py"
+    },
+    {
+      "blob_id": "1342d5c5e6ccac8e6413b4bc8f798dc650038ca4",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 38,
+        "total": 38
+      },
+      "name": "dosagelib/plugins/j.py"
+    },
+    {
+      "blob_id": "fb06ed0d3acbdcd2188cb15116160e08f46ac9fa",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,null,1,1,1,1,1,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 12,
+        "total": 12
+      },
+      "name": "dosagelib/plugins/sandraandwoo.py"
+    },
+    {
+      "blob_id": "d4ab6ae32fa6d2b953667befa26b6d1875d2abc6",
+      "coverage": "[null,null,null,null,null,null,1,null,1,1,1,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,1,1,1,1,1,1,1,1,1,1,0,null,null,0,0,0,0,0,0,0,0,null,1,1,1,1,null,1,1,1,null,1,null,1,1,null,1,null,1,0,1,1,0,0,0,null,1,1,1,1,0,0]",
+      "covered_percent": 70.58823529411765,
+      "covered_strength": 0.7058823529411765,
+      "line_counts": {
+        "missed": 15,
+        "covered": 36,
+        "total": 51
+      },
+      "name": "dosagelib/singleton.py"
+    },
+    {
+      "blob_id": "d31e1b6e9a1796d94da5625eca2b420cf0da6893",
+      "coverage": "[null,null,null,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 2,
+        "total": 2
+      },
+      "name": "dosagelib/languages.py"
+    },
+    {
+      "blob_id": "88b35b7050dbd001df9ea055122b3bfc3648a79d",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,null,null,1,1,null,1,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,null,1,0,null,null,1,1,null,null,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1]",
+      "covered_percent": 92.95154185022027,
+      "covered_strength": 0.9295154185022027,
+      "line_counts": {
+        "missed": 16,
+        "covered": 211,
+        "total": 227
+      },
+      "name": "dosagelib/plugins/b.py"
+    },
+    {
+      "blob_id": "3d9e2672857b570ba0f7f2d546658bde673ccd17",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1]",
+      "covered_percent": 92.5925925925926,
+      "covered_strength": 0.9259259259259259,
+      "line_counts": {
+        "missed": 4,
+        "covered": 50,
+        "total": 54
+      },
+      "name": "dosagelib/plugins/i.py"
     },
     {
       "blob_id": "7b2a39e4e76eec3625ad20545079183c384357c2",
@@ -522,52 +330,16 @@
       "name": "dosagelib/plugins/smackjeeves.py"
     },
     {
-      "blob_id": "a0da4fd7d6eb9dc9b0ef51b01ec5ca21b06fa407",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,0,0,0,0,null,1,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,1,0,0,null,1,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,null,null,1,1,1,null,null,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,null,0,0,0,null,null,1,1,1,1,1,1,1,1]",
-      "covered_percent": 88.33333333333333,
-      "covered_strength": 0.8833333333333333,
+      "blob_id": "261290570e7c1576fee5c0882af7add7c81d258d",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
       "line_counts": {
-        "missed": 42,
-        "covered": 318,
-        "total": 360
+        "missed": 0,
+        "covered": 13,
+        "total": 13
       },
-      "name": "dosagelib/plugins/c.py"
-    },
-    {
-      "blob_id": "a9794948f3de42bf27130b71fca590215cd8f7a3",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,null,1,0,0,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,0,null,0,0,null,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1]",
-      "covered_percent": 90.69767441860465,
-      "covered_strength": 0.9069767441860465,
-      "line_counts": {
-        "missed": 16,
-        "covered": 156,
-        "total": 172
-      },
-      "name": "dosagelib/plugins/n.py"
-    },
-    {
-      "blob_id": "971fa7a712be3dba889e3eac57c1a72ccef22963",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,null,null,0,0,null,0,0,0,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,1,0,0,0,null,1,0,0,0,0]",
-      "covered_percent": 68.42105263157895,
-      "covered_strength": 0.6842105263157895,
-      "line_counts": {
-        "missed": 36,
-        "covered": 78,
-        "total": 114
-      },
-      "name": "dosagelib/plugins/r.py"
-    },
-    {
-      "blob_id": "192938d15773012ef9ae658f4c1cb822981f52b9",
-      "coverage": "[null,null,null,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,0,0]",
-      "covered_percent": 90.76923076923077,
-      "covered_strength": 0.9076923076923077,
-      "line_counts": {
-        "missed": 6,
-        "covered": 59,
-        "total": 65
-      },
-      "name": "dosagelib/plugins/v.py"
+      "name": "dosagelib/plugins/y.py"
     },
     {
       "blob_id": "e0190617542c1cd8c49c68b4c23b7605b21c7e5d",
@@ -582,16 +354,100 @@
       "name": "dosagelib/plugins/z.py"
     },
     {
-      "blob_id": "adc4ea069a17ed263bbf3ce9a5daf6d4f264801a",
-      "coverage": "[null,null,null,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,null,null,null,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,1,1,1,null,1,null,0,0,0,0,null,1,null,0,null,null,1,1,1,1,1,1,1]",
-      "covered_percent": 90.10989010989012,
-      "covered_strength": 0.9010989010989011,
+      "blob_id": "acc842195a3c0d22d2704d67e005a8840c4a46d2",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,1,1,null,null,null,1,null,1,null,null,1,null,null,1,null,1,1,1,1,null,1,null,1,1,null,1,null,1,1,1,1,null,null,null,1,null,null,1,null,1,null,1,1,1,1,1,1,null,1,null,1,1,0,1,null,null,null,1,0,1,null,1,1,1,null,0,0,1,null,0,null,null,1,1,1,1,null,null,1,null,1,1,1,1,0,0,0,0,0,null,1,1,null,1,0,0,1,1,1,1,1,1,1,1,1,1,1,null,1,1,null,null,1,null,1,1,1,null,1,1,1,1,0,0,0,0,null,1,null,1,0,null,1,null,null,1,1,1,1]",
+      "covered_percent": 83.16831683168317,
+      "covered_strength": 0.8316831683168316,
+      "line_counts": {
+        "missed": 17,
+        "covered": 84,
+        "total": 101
+      },
+      "name": "dosagelib/comic.py"
+    },
+    {
+      "blob_id": "1f649f03f7994b13c8126aeefbdc9715120bb577",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,null,1,null,1,1,1,null,null,1,null,1,null,0,0,0,0,1,null,null,1,null,1,null,1,1,1,null,1,1,null,null,1,null,null,null,null,1,1,1,1,1,1,null,null,1,null,null,null,null,null,null,0,0,0,0,null,null,1,null,null,1]",
+      "covered_percent": 77.14285714285715,
+      "covered_strength": 0.7714285714285715,
+      "line_counts": {
+        "missed": 8,
+        "covered": 27,
+        "total": 35
+      },
+      "name": "dosagelib/helpers.py"
+    },
+    {
+      "blob_id": "16d8c9206cb5e57a5c1ef06cd861ec22421aa628",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,null,null,1,1,null,1,1,null,1,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,1,1]",
+      "covered_percent": 81.81818181818183,
+      "covered_strength": 0.8181818181818182,
+      "line_counts": {
+        "missed": 8,
+        "covered": 36,
+        "total": 44
+      },
+      "name": "dosagelib/plugins/cyantian.py"
+    },
+    {
+      "blob_id": "20637f28de2186c9451c6fd590d102b77be00ac6",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,null,1,null,1,0,null,null,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,null,null,1,null,null,1]",
+      "covered_percent": 98.0392156862745,
+      "covered_strength": 0.9803921568627451,
+      "line_counts": {
+        "missed": 1,
+        "covered": 50,
+        "total": 51
+      },
+      "name": "dosagelib/plugins/k.py"
+    },
+    {
+      "blob_id": "a4a67c176f371afbb770b9d23b340e290514bec1",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,null,1,null,0,0,null,null,1,1,1,null,1,null,0,0]",
+      "covered_percent": 88.33333333333333,
+      "covered_strength": 0.8833333333333333,
+      "line_counts": {
+        "missed": 7,
+        "covered": 53,
+        "total": 60
+      },
+      "name": "dosagelib/plugins/u.py"
+    },
+    {
+      "blob_id": "48165947d0bc57023198c0df5593d87f053868fa",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,1,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 11,
+        "total": 11
+      },
+      "name": "dosagelib/plugins/wumo.py"
+    },
+    {
+      "blob_id": "9ce4402e988afd7abacba7bfc099f844bb4b253d",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,null,1,1,null,null,null,1,null,null,1,null,null,null,1,null,1,1,1,null,1,null,null,null,null,1,1,1,null,1,null,1,1,1,null,1,null,0,null,1,null,null,null,null,null,null,0,null,1,null,null,null,null,null,null,null,1,null,1,null,0,null,null,1,null,null,1,null,1,null,1,null,1,null,1,1,1,1,null,1,null,1,null,1,0,0,null,1,1,null,1,null,1,1,1,1,1,1,1,1,1,1,1,1,1,1,null,null,null,null,null,null,1,1,1,null,1,null,1,null,1,null,null,1,null,null,1,1,1,1,1,null,1,1,1,1,1,1,1,null,1,1,1,null,null,1,null,null,1,1,null,1,null,1,1,1,1,null,1,1,0,1,null,1,null,1,1,1,1,1,1,null,1,1,0,0,0,0,null,1,1,1,null,1,1,1,0,1,1,1,null,1,1,null,null,null,null,null,null,null,null,1,1,null,1,null,1,null,1,null,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,null,1,null,1,0,1,0,1,1,null,1,null,1,1,1,1,1,1,1,null,null,1,null,null,1,1,null,1,null,1,null,1,null,1,1,1,null,1,null,1,1,0,0,null,1,1,null,1,null,1,1,1,1,null,1,null,1,null,null,1,1,1,1,null,1,null,1,null,1,1,null,1,null,1,1,1,null,null,1,null,null,1,null,1,0,1,null,null,1,1,1,null,null,1,null,1,null,null,null,1,null,null,1,null,1,0,1,null,null,1,1,null,null,1,null,null,1,null,1,1,null,1,null,1,1,null,1,null,1,1,null,1,null,1,1,null,null,1,null,null,1,null,1]",
+      "covered_percent": 92.03539823008849,
+      "covered_strength": 0.9203539823008849,
       "line_counts": {
         "missed": 18,
-        "covered": 164,
-        "total": 182
+        "covered": 208,
+        "total": 226
       },
-      "name": "dosagelib/plugins/f.py"
+      "name": "dosagelib/events.py"
+    },
+    {
+      "blob_id": "d252f1975b52cc6c3c227fc4aa5f19584db0159e",
+      "coverage": "[null,null,null,null,null,1,1,null,null,1,1,1,1,null,null,1,1,null,null,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 10,
+        "total": 10
+      },
+      "name": "dosagelib/plugins/footloosecomic.py"
     },
     {
       "blob_id": "ecdd35f9a131664f9d6b5b9a8de050899fecd8b3",
@@ -618,136 +474,88 @@
       "name": "dosagelib/plugins/wlpcomics.py"
     },
     {
-      "blob_id": "6151993f7b28ea60a6cef75d52489223ce36acae",
-      "coverage": "[null,null,null,1,null,null,null,1,null,1,null,1,null,1,1,1,1,1,null,1,null,null,null,1,null,null,null,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 12,
-        "total": 12
-      },
-      "name": "dosagelib/configuration.py"
-    },
-    {
-      "blob_id": "98259f1db2aed0dd69ea24ce5c755b6000b36a54",
-      "coverage": "[null,null,null,1,null,1,1,1,null,1,1,1,1,null,1,null,null,1,null,null,null,1,null,null,1,null,null,1,null,null,null,null,null,null,null,1,1,null,1,1,1,1,null,1,null,1,1,0,null,1,1,null,1,null,1,null,null,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,null,null,1]",
-      "covered_percent": 97.43589743589743,
-      "covered_strength": 0.9743589743589743,
+      "blob_id": "13c462a89e95e019f9632bf2fd49a0fd82c4c083",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,1,1,null,1,1,1,1,null,1,0,null,1,1,1]",
+      "covered_percent": 93.75,
+      "covered_strength": 0.9375,
       "line_counts": {
         "missed": 1,
-        "covered": 38,
-        "total": 39
+        "covered": 15,
+        "total": 16
       },
-      "name": "dosagelib/http.py"
+      "name": "dosagelib/plugins/comicsherpa.py"
     },
     {
-      "blob_id": "59ea2998e1f5c7b44303f1ee2ea0680250987867",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,1,1,1,1,null,1,1,0,null,0,0,1,1,null,1,1,0,0,null,1,1,1,null,null,1,null,null,null,null,null,null,null,1,null,null,1,null,null,null,1,1,0,1,0,0,0,null,1,null,null,1,null,null,null,0,0,0,0,0,0,0,0,0,null,0,null,0,null,null,1,null,null,null,null,0,0,0,0,0,null,null,1,null,1,1,null,null,1,null,0,0,null,null,1,null,1,1,0,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,null,1,1,null,null,null,null,null,null,null,1,null,null,null,null,1,null,null,null,null,null,null,null,null,1,null,null,1,null,1,null,1,1,1,null,null,1,null,null,1,0,1,null,null,1,null,null,0,0,0,0,null,0,0,null,null,1,null,1,null,null,1,null,null,1,null,null,null,null,null,1,null,1,null,1,1,1,1,1,null,1,0,null,1,1,null,null,1,null,1,1,null,null,1,null,null,null,1,1,1,0,null,null,1,1,null,1,1,1,null,1,null,1,null,0,0,0,0,1,null,null,1,null,null,1,1,1,1,1,1,1,1,1,null,0,0,1,1,1,1,1,1,1,1,1,1,null,null,1,null,null,null,1,0,1,0,0,0,null,null,null,null,1,null,1,1,1,1,1,1,null,null,1,null,1,1,1,1,1,0,0,null,1,1,null,null,1,null,1,1,1,null,null,1,null,0,0,null,null,null,null,null,null,null,null,0,0,0,0,0,0,0,0,0,0,0,0,null,null,null,null,1,null,0,0,0,null,null,1,null,0,null,null,1,null,0,0,null,null,1,null,0,0,0,null,0,0,0,null,null,1,null,0,null,null,null,1,null,null,0,0,null,0,0,null,null,1,null,1,null,null,1,null,1,0,0,0,0,1,null,null,1,null,0,null,null,1,null,null,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,null,null,1,null,null,null,1,null,1,0,1,0,null,1,0,1,null,null,1,null,null,null,null,1,1,1,1,1,1,1,1,1,0,null,null,1,null,null,null,0,0,0,0,0,0,0,0,null,null,1,null,null,null,null,null,null,null,null,null,1,1,1,1,0,1,null,null,1,null,1,1,1,1,1]",
-      "covered_percent": 60.57347670250897,
-      "covered_strength": 0.6057347670250897,
-      "line_counts": {
-        "missed": 110,
-        "covered": 169,
-        "total": 279
-      },
-      "name": "dosagelib/util.py"
-    },
-    {
-      "blob_id": "3d9e2672857b570ba0f7f2d546658bde673ccd17",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1]",
-      "covered_percent": 92.5925925925926,
-      "covered_strength": 0.9259259259259259,
-      "line_counts": {
-        "missed": 4,
-        "covered": 50,
-        "total": 54
-      },
-      "name": "dosagelib/plugins/i.py"
-    },
-    {
-      "blob_id": "da17567a2710acd506c2140f537b3e763b163929",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,1,1,1,1,null,1,1,1,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0]",
-      "covered_percent": 94.73684210526315,
-      "covered_strength": 0.9473684210526315,
-      "line_counts": {
-        "missed": 1,
-        "covered": 18,
-        "total": 19
-      },
-      "name": "dosagelib/plugins/keenspot.py"
-    },
-    {
-      "blob_id": "9851ebe8a5fb9e7764f22209cf56453b5ea703f0",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,null,1,null,1,1,1,null,1,null,0,0,0,0,0,null,null,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,null,null,null,null,null,null,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,null,1,1,1,null,1,null,0,0,0,null,0,0,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,1,1,1,1,null,1,null,0,null,null,1,1,null,1,1,1,1,1,null,1,0,null,1,0,0,0,0,0,0,null,null,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,null,1,1,1,1,null,1,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,null,1,1,1,1,1,1,1,null,1,0,null,null,0,0,0,0,0,0,null,null,1,1,1,1,null,1,null,0,0,0,0,null,0,null,null,0,0,0,0,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,1,null,null,null,null,null,null,1,null,1,1,1,null,1,null,0,0,0,0,null,1,null,0,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,null,null,1,null,null,null,1,1,null,null,1,1,1,1,1,1,1]",
-      "covered_percent": 87.88598574821853,
-      "covered_strength": 0.8788598574821853,
-      "line_counts": {
-        "missed": 51,
-        "covered": 370,
-        "total": 421
-      },
-      "name": "dosagelib/plugins/s.py"
-    },
-    {
-      "blob_id": "acc842195a3c0d22d2704d67e005a8840c4a46d2",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,1,1,null,null,null,1,null,1,null,null,1,null,null,1,null,1,1,1,1,null,1,null,1,1,null,1,null,1,1,1,1,null,null,null,1,null,null,1,null,1,null,1,1,1,1,1,1,null,1,null,1,1,0,1,null,null,null,1,0,1,null,1,1,1,null,0,0,1,null,0,null,null,1,1,1,1,null,null,1,null,1,1,1,1,0,0,0,0,0,null,1,1,null,1,0,0,1,1,1,1,1,1,1,1,1,1,1,null,1,1,null,null,1,null,1,1,1,null,1,1,1,1,0,0,0,0,null,1,null,1,0,null,1,null,null,1,1,1,1]",
-      "covered_percent": 83.16831683168317,
-      "covered_strength": 0.8316831683168316,
+      "blob_id": "acdaf1164871ab5b516e582245ee00282b09324b",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,1,1,1,1,1,null,1,1,0,0,null,1,1,null,null,1,null,null,1,null,1,null,null,1,null,null,1,null,1,null,1,1,1,1,1,1,1,null,0,1,1,null,0,1,1,0,1,null,1,1,null,1,null,1,1,null,null,1,1,null,1,null,1,null,1,null,null,1,null,1,null,1,null,null,1,null,1,null,1,null,1,1,1,1,1,null,1,null,1,1,1,0,null,1,1,1,1,1,1,1,0,1,1,1,null,1,null,1,1,1,null,1,1,null,1,1,0,0,0,0,0,0,0,null,1,1,null,1,null,1,1,null,1,1,1,1,null,1,null,1,1,null,1,1,0,0,1,1,1,0,null,1,null,null,1]",
+      "covered_percent": 84.82142857142857,
+      "covered_strength": 0.8482142857142857,
       "line_counts": {
         "missed": 17,
-        "covered": 84,
-        "total": 101
+        "covered": 95,
+        "total": 112
       },
-      "name": "dosagelib/comic.py"
+      "name": "dosagelib/output.py"
     },
     {
-      "blob_id": "6d4897fc5bdce43e290ca61827f7082ce064a344",
-      "coverage": "[null,null,null,null,1,null,1,1,1,null,null,null,null,null,1,null,null,1,null,1,1,1,1,1,1,1,1,1,1,null,1,null,1,1,1,null,1,null,1,null,1,1,1,1,1,null,1,1,null,1,1,1,null,0,null,1,null,1,1,null,1,null,1,null,null,1,null,1,null,1,1,null,1,1,null,1,null,1,1,1,null,1,null,1,1,1,1,null,null,null,1]",
-      "covered_percent": 98.14814814814815,
-      "covered_strength": 0.9814814814814815,
+      "blob_id": "aa14de897f3609cd7b50678c12640330e8b24878",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,1,1,null,1,1,0,0,null,1,1,1,1,null,1,1,null,1,1,1,null,null,1,null,null,1,null,null,null,null,1,null,null,null,1,null,null,1,null,null,1,null,null,1,null,null,1,null,null,1,null,null,null,1,null,null,null,1,null,null,null,1,null,null,null,null,1,null,null,1,null,null,null,null,null,1,null,null,1,null,1,1,1,1,1,1,null,1,1,1,null,1,1,1,1,null,1,null,1,1,1,1,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,1,0,null,null,0,0,0,1,0,null,1,1,null,null,1,1,null,1,null,1,1,1,null,0,1,1,1,null,0,null,null,1,1,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,0,0,null,1,1,1,null,1,1,0,0,0,1,1,1,1,1,1,1,null,0,0,1,null,1,null,null,null,null,1,0,1,1,1,null,1,null,1,1,1,1,0,null,0,null,1,1,1,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,null,null,null,1,null,1,null,null,null,null,1,null,1,null,1,1,1,1,null,1,null,null,1,1,1,1,null,1,1,null,0,0,0,1,1,1,null,1,null,1,1,null,1,null,1,null,1,null,0,0,0,0,0,null,1,null,null,null,null,null,null,null,null,null,null,null,1,null,1,0,null,1,1,null,1,0,null,1,null,null,null,null,null,null,1,null,1,null,null,null,null,1,1,1,1,null,0,0,0,0,0,0,0,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,1,null,1,0,null,0,0,0,0,null,0,0,null,1,null,0,0,0,0,0,0,0,null,0,null,0,0,null,0,0,0,0,null,0,null,1,null,0,0,0,0,0,null,0,0,0,null,0,null,null,0,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,1,null,null,1,null,null,null,null,null,1,null,null,null,null,1,null,1,1,1,null,null,null,null,null,1,1,null,0,1,1,null,1,1,0,0,0,null,0,0,null,1,1,null,1,null,1,1,1,1,1,1,1,0,0,1,1,1,null,1,1,null,1,null,1,null,1,0,1,1,1,1,1,1,1,1,1,0,0,null,0,null,1,null,1,1,0,null,1,1,1,1,1,1,1,1,null,1,null,1,null,1,1,1,0,null,null,1,null,null,1,null,null,null,null,null,null,1,1,1,1,1,1,1,null,1,1,null,0,1,1,1,1,1,1,0,1,null,null,1,null,null,1,null,null,null,null,null,null,1,1,1,1,1,null,1,1,null,1,1,null,1,null,null,1,null,1,1,1,1,0,0,0,null,1]",
+      "covered_percent": 74.92795389048992,
+      "covered_strength": 0.7492795389048992,
       "line_counts": {
-        "missed": 1,
-        "covered": 53,
-        "total": 54
+        "missed": 87,
+        "covered": 260,
+        "total": 347
       },
-      "name": "dosagelib/rss.py"
+      "name": "dosagelib/scraper.py"
     },
     {
-      "blob_id": "c005d3499d6b603314fbf4f0125c0ca53de94195",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,null,null,null,null,1,null,1,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1]",
-      "covered_percent": 96.89922480620154,
-      "covered_strength": 0.9689922480620154,
+      "blob_id": "eb175fed91b9d934cc565aae76ff87187d276e23",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,0,null,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,1,null,0,0,0,null,1,null,0,0,0,0,0,0,0,0,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,null,1,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1]",
+      "covered_percent": 84.86486486486487,
+      "covered_strength": 0.8486486486486486,
       "line_counts": {
-        "missed": 4,
-        "covered": 125,
-        "total": 129
+        "missed": 28,
+        "covered": 157,
+        "total": 185
       },
-      "name": "dosagelib/plugins/g.py"
+      "name": "dosagelib/plugins/e.py"
     },
     {
-      "blob_id": "1342d5c5e6ccac8e6413b4bc8f798dc650038ca4",
-      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1]",
+      "blob_id": "ece6095d23a1af33b4e5d092e261032acd055cbc",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,null,1,null,0,0,0,null,null,1,1,1,1,null,1,null,1,1,1,null,1,0,0,0,0,0,0,0,null,0,0,0,0,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,null,null,1,1,null,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1]",
+      "covered_percent": 84.29752066115702,
+      "covered_strength": 0.8429752066115702,
+      "line_counts": {
+        "missed": 19,
+        "covered": 102,
+        "total": 121
+      },
+      "name": "dosagelib/plugins/o.py"
+    },
+    {
+      "blob_id": "2d80d88a6c0fb06f05d2bfc8fbe5dd9ebc671593",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1]",
       "covered_percent": 100,
       "covered_strength": 1,
       "line_counts": {
         "missed": 0,
-        "covered": 38,
-        "total": 38
+        "covered": 32,
+        "total": 32
       },
-      "name": "dosagelib/plugins/j.py"
+      "name": "dosagelib/plugins/q.py"
     },
     {
-      "blob_id": "a1c0b16597d65d72ae043795a956699c1d7bacb6",
-      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,1,null,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
+      "blob_id": "f2f53eeffd09afa564dfdc3237858a5593ae8164",
+      "coverage": "[null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,1,null,1,1,0,0,null,1,null,1,1,1,0,null,0,null,null,0]",
+      "covered_percent": 61.53846153846154,
+      "covered_strength": 0.6153846153846154,
       "line_counts": {
-        "missed": 0,
-        "covered": 11,
-        "total": 11
+        "missed": 5,
+        "covered": 8,
+        "total": 13
       },
-      "name": "dosagelib/plugins/arcamax.py"
+      "name": "dosagelib/__init__.py"
     },
     {
       "blob_id": "d33fe9161d47c177a0091033e7f46820484a6c01",
@@ -762,16 +570,124 @@
       "name": "dosagelib/plugins/comicgenesis.py"
     },
     {
-      "blob_id": "6167ce47846362008ff24853d4c9f022160e1e7a",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,null,null,null,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,null,null,0,0,0,null,0,null,1,null,0]",
-      "covered_percent": 80.76923076923077,
-      "covered_strength": 0.8076923076923077,
+      "blob_id": "33fec2d210d87e709ff32b92056cfcfec728a5f8",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 5,
+        "total": 5
+      },
+      "name": "dosagelib/plugins/num.py"
+    },
+    {
+      "blob_id": "6d4897fc5bdce43e290ca61827f7082ce064a344",
+      "coverage": "[null,null,null,null,1,null,1,1,1,null,null,null,null,null,1,null,null,1,null,1,1,1,1,1,1,1,1,1,1,null,1,null,1,1,1,null,1,null,1,null,1,1,1,1,1,null,1,1,null,1,1,1,null,0,null,1,null,1,1,null,1,null,1,null,null,1,null,1,null,1,1,null,1,1,null,1,null,1,1,1,null,1,null,1,1,1,1,null,null,null,1]",
+      "covered_percent": 98.14814814814815,
+      "covered_strength": 0.9814814814814815,
+      "line_counts": {
+        "missed": 1,
+        "covered": 53,
+        "total": 54
+      },
+      "name": "dosagelib/rss.py"
+    },
+    {
+      "blob_id": "8cafa57e2709dbd62fc09c228107141943665bd8",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,1,1,null,1,0,0,0,0,null,0,null,1,1,1]",
+      "covered_percent": 80,
+      "covered_strength": 0.8,
       "line_counts": {
         "missed": 5,
-        "covered": 21,
-        "total": 26
+        "covered": 20,
+        "total": 25
       },
-      "name": "dosagelib/plugins/common.py"
+      "name": "dosagelib/plugins/clonemanga.py"
+    },
+    {
+      "blob_id": "da17567a2710acd506c2140f537b3e763b163929",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,1,1,1,1,null,1,1,1,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0]",
+      "covered_percent": 94.73684210526315,
+      "covered_strength": 0.9473684210526315,
+      "line_counts": {
+        "missed": 1,
+        "covered": 18,
+        "total": 19
+      },
+      "name": "dosagelib/plugins/keenspot.py"
+    },
+    {
+      "blob_id": "7b677197df65da462f9f3add18993737cfd66fda",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 21,
+        "total": 21
+      },
+      "name": "dosagelib/plugins/nuklearpower.py"
+    },
+    {
+      "blob_id": "048d1689aa095c9d7f535419e92d2f2249329da6",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,0,null,1,1,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,1,1,1,null,1,1,1,1,null,1,1,null,1,1,1]",
+      "covered_percent": 96.42857142857143,
+      "covered_strength": 0.9642857142857143,
+      "line_counts": {
+        "missed": 1,
+        "covered": 27,
+        "total": 28
+      },
+      "name": "dosagelib/plugins/old.py"
+    },
+    {
+      "blob_id": "24725adc74a56c59fa3bc7882c2c2a3df73266c1",
+      "coverage": "[null,null,null,null,null,1,null,1,null,null,1,1,1,null,1,1,null,1,1,null,1,1,1,null,null,null,null,null,1,1,1,1,1,1,null,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 21,
+        "total": 21
+      },
+      "name": "dosagelib/plugins/petitesymphony.py"
+    },
+    {
+      "blob_id": "a0da4fd7d6eb9dc9b0ef51b01ec5ca21b06fa407",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,null,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,0,0,0,0,null,1,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,0,0,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,1,0,0,null,1,0,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,null,null,1,1,1,null,null,1,1,1,1,null,1,null,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,null,0,0,0,null,null,1,1,1,1,1,1,1,1]",
+      "covered_percent": 88.33333333333333,
+      "covered_strength": 0.8833333333333333,
+      "line_counts": {
+        "missed": 42,
+        "covered": 318,
+        "total": 360
+      },
+      "name": "dosagelib/plugins/c.py"
+    },
+    {
+      "blob_id": "28c06f168f37c48dcd3c314585988b538571165a",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,1,1,1,1,null,null,1,null,null,1,null,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,1,null,null,null,null,1,null,1,null,1,null,1,null,1,null,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,null,1,null,null,1,null,1,null,1,null,null,1,null,null,1,null,null,null,1,null,1,null,1,1,0,1,1,1,null,null,1,null,1,1,1,1,1,null,1,1,1,1,1,1,null,1,null,null,null,1,null,1,null,1,null,1,1,1,null,1,1,1,null,null,1,null,1,1,1,null,null,1,null,1,1,1,1,0,0,0,1,null,null,1,null,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,0,0,null,1,null,null,1,null,0,0,0,null,null,0,0,0,0,0,null,null,1,null,0,0,0,0,0,0,0,0,0,null,0,0,null,null,1,null,1,null,1,0,1,1,1,1,1,1,null,null,1,1,1,1,1,1,0,1,null,null,1,null,1,1,1,null,1,1,null,1,1,null,1,1,1,0,0,null,0,0,1,null,null,1,null,1,1,1,0,null,1,1,null,null,1,null,1,1,null,1,1,null,1,1,1,1,1,null,1,1,null,null,1,1,1,null,null,1,null,1,1,1,1,1,1,1,0,1,0,1,1,null,1,1,1,1,1,null,null,1,null,1,1,1,1,1,0,0,1,0,0,1]",
+      "covered_percent": 79.80295566502463,
+      "covered_strength": 0.7980295566502463,
+      "line_counts": {
+        "missed": 41,
+        "covered": 162,
+        "total": 203
+      },
+      "name": "dosagelib/cmd.py"
+    },
+    {
+      "blob_id": "09856a2174f9784f5ada937f5626ec7295c73550",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,1,null,1,0,0,0,null,null,1,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,0,0,null,1,null,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,null,null,null,1,null,0,0,0,0,null,null,1,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,1,null,null,1,1,1,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,1,null,0,0,0,null,1,null,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1,1,1,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,null,null,null,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,null,null,1,1,null,null,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,1,1,null,1,0,null,1,null,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,null,1,null,0,0,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,null,null,null,1,1,1,1,1,null,null,1,1]",
+      "covered_percent": 86.81672025723472,
+      "covered_strength": 0.8681672025723473,
+      "line_counts": {
+        "missed": 41,
+        "covered": 270,
+        "total": 311
+      },
+      "name": "dosagelib/plugins/a.py"
     },
     {
       "blob_id": "0b3a4a38939ac9ab5aeb369a5c75bf2ac46a4b80",
@@ -786,52 +702,136 @@
       "name": "dosagelib/plugins/nitrocosm.py"
     },
     {
-      "blob_id": "71ca66f4c37926550a0995e84f3b66d356e7cd41",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,null,1,1,1,1,null,1,1,1]",
+      "blob_id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "coverage": "[]",
+      "covered_percent": 0,
+      "covered_strength": 0,
+      "line_counts": {
+        "missed": 0,
+        "covered": 0,
+        "total": 0
+      },
+      "name": "dosagelib/plugins/__init__.py"
+    },
+    {
+      "blob_id": "192938d15773012ef9ae658f4c1cb822981f52b9",
+      "coverage": "[null,null,null,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,0,0]",
+      "covered_percent": 90.76923076923077,
+      "covered_strength": 0.9076923076923077,
+      "line_counts": {
+        "missed": 6,
+        "covered": 59,
+        "total": 65
+      },
+      "name": "dosagelib/plugins/v.py"
+    },
+    {
+      "blob_id": "93dd8126ef9934a0da035d923d40c8fd72c0441b",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,0,0,0,0,0,null,null,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,null,1,0,0,0,null,null,1,1,1,1,null,null,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,null,1,0,0,0,0]",
+      "covered_percent": 84.88372093023256,
+      "covered_strength": 0.8488372093023255,
+      "line_counts": {
+        "missed": 13,
+        "covered": 73,
+        "total": 86
+      },
+      "name": "dosagelib/plugins/h.py"
+    },
+    {
+      "blob_id": "cbc2630e1de6ed4162517c0145feffa88f35eb78",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,null,1,1,null,null,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,null,1,1,1,1,1,1,1,1,null,1,0,0,0,0,null,1,1,1]",
+      "covered_percent": 85.71428571428571,
+      "covered_strength": 0.8571428571428571,
+      "line_counts": {
+        "missed": 4,
+        "covered": 24,
+        "total": 28
+      },
+      "name": "dosagelib/plugins/comicfury.py"
+    },
+    {
+      "blob_id": "c005d3499d6b603314fbf4f0125c0ca53de94195",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,null,1,0,0,null,null,1,1,1,1,1,1,1,null,1,null,1,1,null,null,1,1,1,1,1,1,null,null,null,null,1,null,1,null,null,1,1,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,null,1,null,1,null,1,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,1,null,1,0,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,null,1,1,null,null,1]",
+      "covered_percent": 96.89922480620154,
+      "covered_strength": 0.9689922480620154,
+      "line_counts": {
+        "missed": 4,
+        "covered": 125,
+        "total": 129
+      },
+      "name": "dosagelib/plugins/g.py"
+    },
+    {
+      "blob_id": "6dbdd98704b15bb0f33d47637c7f37a948805d0d",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,1,1,1,1,null,1,0,0,null,1,0,null,1,null,0,null,1,1,1]",
+      "covered_percent": 85.18518518518519,
+      "covered_strength": 0.8518518518518519,
+      "line_counts": {
+        "missed": 4,
+        "covered": 23,
+        "total": 27
+      },
+      "name": "dosagelib/plugins/gocomics.py"
+    },
+    {
+      "blob_id": "c2088aa5ecda484f30649687ffe566a8cc09695e",
+      "coverage": "[null,null,null,null,null,1,null,1,null,1,1,1,1,null,null,1,1,1,null,null,1,1,1,1,1,1,null,1,null,null,1,1,1,1,1,1,1,1,1,null,1,null,0,null,1,0,0,0,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1,null,null,null,null,1,null,0,0,0,0,null,1,null,0,0,0,0,0,0,0,null,1,null,0,0,null,null,1,1,1,1,1,null,null,1,1,1,1,1,null,1,0,null,null,1,1,1,1,null,null,1,1,1,1,1,1,1,null,1,1,1,null,null,1,1,1,1,1,1,1,1,null,null,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,null,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,0,0,0,0,0,null,null,1,1,1,1,1,null,null,null,1,1,null,1,0,null,null,1,null,0,0,0,0,0,0,0,null,null,1,1,null,null,1,1,null,null,1,1,null,null,1,1,1,1]",
+      "covered_percent": 80.2547770700637,
+      "covered_strength": 0.802547770700637,
+      "line_counts": {
+        "missed": 31,
+        "covered": 126,
+        "total": 157
+      },
+      "name": "dosagelib/plugins/w.py"
+    },
+    {
+      "blob_id": "98259f1db2aed0dd69ea24ce5c755b6000b36a54",
+      "coverage": "[null,null,null,1,null,1,1,1,null,1,1,1,1,null,1,null,null,1,null,null,null,1,null,null,1,null,null,1,null,null,null,null,null,null,null,1,1,null,1,1,1,1,null,1,null,1,1,0,null,1,1,null,1,null,1,null,null,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,null,null,1]",
+      "covered_percent": 97.43589743589743,
+      "covered_strength": 0.9743589743589743,
+      "line_counts": {
+        "missed": 1,
+        "covered": 38,
+        "total": 39
+      },
+      "name": "dosagelib/http.py"
+    },
+    {
+      "blob_id": "c5fd0a88108031b3a242052bb822678c8ece7132",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,null,1,1,1,1,1,null,1,1,1]",
       "covered_percent": 100,
       "covered_strength": 1,
       "line_counts": {
         "missed": 0,
-        "covered": 12,
-        "total": 12
+        "covered": 16,
+        "total": 16
       },
-      "name": "dosagelib/plugins/webcomicfactory.py"
+      "name": "dosagelib/plugins/creators.py"
     },
     {
-      "blob_id": "261290570e7c1576fee5c0882af7add7c81d258d",
-      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,null,null,1,1,1,1,1,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
+      "blob_id": "3f6b5f3296a25420e715573e4a70608849663904",
+      "coverage": "[null,null,null,null,null,1,null,1,1,null,null,1,1,1,1,1,1,1,1,1,1,1,null,1,1,1,1,null,1,1,0,1,null,1,1]",
+      "covered_percent": 95.83333333333334,
+      "covered_strength": 0.9583333333333334,
       "line_counts": {
-        "missed": 0,
-        "covered": 13,
-        "total": 13
+        "missed": 1,
+        "covered": 23,
+        "total": 24
       },
-      "name": "dosagelib/plugins/y.py"
+      "name": "dosagelib/plugins/x.py"
     },
     {
-      "blob_id": "d4ab6ae32fa6d2b953667befa26b6d1875d2abc6",
-      "coverage": "[null,null,null,null,null,null,1,null,1,1,1,1,1,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,1,1,1,1,1,1,1,1,1,1,0,null,null,0,0,0,0,0,0,0,0,null,1,1,1,1,null,1,1,1,null,1,null,1,1,null,1,null,1,0,1,1,0,0,0,null,1,1,1,1,0,0]",
-      "covered_percent": 70.58823529411765,
-      "covered_strength": 0.7058823529411765,
+      "blob_id": "3ed2367044346152f31a10767185ae89d5f35698",
+      "coverage": "[null,null,null,null,null,1,null,1,1,1,1,1,null,1,1,null,null,1,null,null,1,null,null,null,null,null,null,null,null,1,1,1,1,null,1,null,1,null,1,1,1,null,null,null,1,null,null,1,null,1,null,null,1,null,null,1,null,1,1,null,null,1,null,null,1,null,1,1,1,1,1,1,null,1,null,1,1,1,1,1,1,null,1,1,1,1,0,0,null,1,null,1,1,1,1,null,1,null,1,1,1,0,null,null,1,1,1,0,0,1,1,1,null,0,0,1,0,1,null,null,0,0,0,0,null,1,null,1,1,1,1,0,null,1,1,1,1,0,0,0,0,1,null,1,null,1,null,null,1,null,1,1,null,1,1,1,1,1,1,1,null,1,null,1,1,1,1,1,null,1,1,1,1,1,1,0,0,null,1,1,1,1,1,1,null,null,1,null,1,null,0,0,0,0,null,null,null,1,1,null,1,1,null,null,0,1,1,1,null,1,1,1,1,1,null,1,1,1,1,null,null,1,0,0,0,0,0,null,null,1,1,1,1,0,0,1,1,0,0,1,null,null,1,null,0,null,null,1,null,0]",
+      "covered_percent": 78.78787878787878,
+      "covered_strength": 0.7878787878787878,
       "line_counts": {
-        "missed": 15,
-        "covered": 36,
-        "total": 51
+        "missed": 35,
+        "covered": 130,
+        "total": 165
       },
-      "name": "dosagelib/singleton.py"
-    },
-    {
-      "blob_id": "2d80d88a6c0fb06f05d2bfc8fbe5dd9ebc671593",
-      "coverage": "[null,null,null,null,null,1,null,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,null,null,1,1,1,1,1,1,1,1,1]",
-      "covered_percent": 100,
-      "covered_strength": 1,
-      "line_counts": {
-        "missed": 0,
-        "covered": 32,
-        "total": 32
-      },
-      "name": "dosagelib/plugins/q.py"
+      "name": "dosagelib/director.py"
     }
   ],
   "repo_token": "2a411f596959fc32f5d73f3ba7cef8cc4d5733299d742dbfc97fd6c190b9010c"
