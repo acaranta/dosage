@@ -77,7 +77,9 @@
             <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on
 <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
-<h2><a href="https://github.com/webcomics/dosage/compare/2.15...HEAD">Unreleased</a></h2>
+<h2><a href="https://github.com/webcomics/dosage/compare/2.16...HEAD">Unreleased</a></h2>
+<h2><a href="https://github.com/webcomics/dosage/compare/2.15...2.16">2.16</a> - 2020-01-12</h2>
+<p>This will be the last release with Python 2 support.</p>
 <h3>Added</h3>
 <ul>
 <li>Many, many comics :D</li>
@@ -104,6 +106,13 @@
   "virtual" modules covering multiple comics can now be written much more
   concise. See issue #42 for details.</li>
 <li>Windows build is now one standalone EXE file (thanks to <a href="https://www.pyinstaller.org/">PyInstaller</a>).</li>
+<li>Allow combining -n with -c or -a (related to #90). This allows to set an
+  upper bound to normally "unconstrained" fetch modes.</li>
+<li>Replace forced "sleep" between requests with a simple host-based throttling
+  mechanism.</li>
+<li>Uses <a href="https://pypi.org/project/imagesize/">imagesize</a> instead of Pillow to get image sizes. (Pillow is a very big
+  libary with many binary dependencies and we were using only this feature from
+  it)</li>
 </ul>
 <h3>Removed</h3>
 <ul>
@@ -905,7 +914,7 @@
         <ul class="copyright">
             <li>Generated with <a
                 href="https://github.com/spanezz/staticsite">staticsite</a>,
-                last change: 2020-01-12 20:34:10Z</li>
+                last change: 2020-01-12 21:54:57Z</li>
             <li>&copy; Tobias Gruetzmacher. Some rights reserved.</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
