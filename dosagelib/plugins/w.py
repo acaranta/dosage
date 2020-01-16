@@ -17,11 +17,13 @@ class WapsiSquare(_WordPressScraper):
     url = 'http://wapsisquare.com/'
     firstStripUrl = url + 'comic/09092001/'
 
-class WarandPeas(_WordPressScraper):
+class WarAndPeas(_BasicScraper):
     url = 'https://warandpeas.com/'
-    firstStripUrl = url + '2011/11/07/565/'
-    prevSearch = '//a[%s]' % xpath_class('nav-previous')
-    nextSearch = '//a[%s]' % xpath_class('nav-next')
+    firstStripUrl = url + 'page/21/'
+    prevSearch = '//div[%s]' % xpath_class('nav-previous')
+    nextSearch = '//div[%s]' % xpath_class('nav-next')
+    imageSearch = compile(tagre("a", "href", r'(https://linsedition.files.wordpress.com/[^"]+)'))
+    multipleImagesPerStrip = True
 
 class WastedTalent(_BasicScraper):
     url = 'http://www.wastedtalent.ca/'
