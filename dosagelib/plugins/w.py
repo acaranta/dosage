@@ -17,6 +17,11 @@ class WapsiSquare(_WordPressScraper):
     url = 'http://wapsisquare.com/'
     firstStripUrl = url + 'comic/09092001/'
 
+class WarandPeas(_WordPressScraper):
+    url = 'https://warandpeas.com/'
+    firstStripUrl = url + '2011/11/07/565/'
+    prevSearch = '//a[%s]' % xpath_class('nav-previous')
+    nextSearch = '//a[%s]' % xpath_class('nav-next')
 
 class WastedTalent(_BasicScraper):
     url = 'http://www.wastedtalent.ca/'
